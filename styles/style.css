@@ -36,6 +36,9 @@
     border-radius: 5px;
     cursor: pointer;
 }
+butam:hover{
+    background-color: coral;
+}
 
 .start{
     background-image: url(../assets/hero-bg.png);
@@ -47,10 +50,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .chup{
     text-align: center;
 }
+
 
 .start h1{
     font-size: 48px;
@@ -74,22 +79,34 @@
     border-radius: 50px;
     cursor: pointer;
 }
+.btn:hover{
+    background-color: yellow;
+}
+
 .start .jinku{
     background-color: #30B868;
     color: white;
     border: none;
     padding: 10px 20px;
-    /* border-radius: 1px; */
+    border-radius: 4px;
     cursor: pointer;
+    margin-right: 12px;
+}
+.jinku:hover{
+    background-color: coral;
 }
 .start .jnina{
     background-color: transparent;
     color: white;
     border: 1px solid white;
     padding: 10px 20px;
-    /* border-radius: 1px; */
+    border-radius: 4px;
     cursor: pointer;
 }
+.jnina:hover{
+    background-color: coral;
+}
+
 
 .skill-con{
     width: 71%;
@@ -155,6 +172,9 @@
     border-radius: 12px;
     margin-left:20px;
 }
+.knowledge-section .knowledge-content .list{
+    list-style:none;
+}
 .knowledge-section .knowledge-content{
     display: flex;
     flex-direction: column;
@@ -208,13 +228,16 @@
     justify-content: center;
     text-align: center;
 }
-.free .freeless .jinku{
+.free .freeless .pinku{
     background-color: #30B868;
     color: white;
     border: none;
     padding: 10px 20px;
     /* border-radius: 1px; */
     cursor: pointer;
+}
+.pinku:hover{
+    background-color: lightcoral;
 }
 .free .freeless p{
     font-size: 16px;
